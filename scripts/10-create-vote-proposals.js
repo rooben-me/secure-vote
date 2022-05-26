@@ -18,7 +18,7 @@ const tokenModule = sdk.getTokenModule(
     await voteModule.propose(
       "Should the DAO mint an additional " +
         amount +
-        " tokens into the treasury?",
+        " to organize a heath checkup",
       [
         {
           // Our nativeToken is ETH. nativeTokenValue is the amount of ETH we want

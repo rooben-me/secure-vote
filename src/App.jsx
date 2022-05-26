@@ -194,7 +194,7 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to HealUS</h1>
+        <h1>Welcome to Secure vote</h1>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
           Connect your wallet
         </button>
@@ -228,7 +228,7 @@ const App = () => {
   if (hasClaimedNFT) {
     return (
       <div className="member-page">
-        <h1>Heal us</h1>
+        <h1>Seucre vote</h1>
         <p>Congratulations on being a member</p>
         <p>
           Your address <code>{address}</code>
@@ -388,7 +388,7 @@ const App = () => {
   // which means they've connected their wallet to our site!
   return (
     <div className="mint-nft">
-      <h1>Mint your free Heal US NFT</h1>
+      <h1>Mint your free Secure vote NFT</h1>
       <button disabled={isClaiming} onClick={() => mintNft()}>
         {isClaiming ? "Minting..." : "Mint your nft (FREE)"}
       </button>
