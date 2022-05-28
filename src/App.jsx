@@ -229,10 +229,21 @@ const App = () => {
     return (
       <div className="member-page">
         <h1>Seucre vote</h1>
-        <p>Congratulations on being a member</p>
+        <p style={{ textAlign: "center", fontWeight: "600" }}>
+          🌊Your SECURE VOTE NFT has been Successfully Minted! Check it out on
+          OpenSea:
+        </p>
+        <a
+          style={{ color: "white", cursor: "pointer" }}
+          href={`https://testnets.opensea.io/assets/${bundleDropModule.address}/0`}
+        >
+          https://testnets.opensea.io/assets/$
+          {bundleDropModule.address}/0`
+        </a>
         <p>
           Your address <code>{address}</code>
         </p>
+
         <div>
           <div>
             <h2>Member List</h2>
